@@ -8,7 +8,9 @@ namespace ReadScannerLibrary
 {
     class Context
     {
-
+        /// <summary>
+        /// 
+        /// </summary>
         private IStrategy _strategy;
 
         public Context()
