@@ -24,6 +24,10 @@ namespace ReadScannerLibrary
         {
             this._strategy = strategy;
         }
+        public void RealizeBusinessLogic(DataModel data)
+        {
+            var result = this._strategy.DoAlgorithm(data);
+        }
 
     }
 }

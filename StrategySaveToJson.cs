@@ -1,16 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Newtonsoft.Json;
+using System;
+using System.IO;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ReadScannerLibrary
 {
     public class StrategySaveToJson : IStrategy
     {
-        public object DoAlgorithm(object data)
+
+        public bool DoAlgorithm(DataModel data)
         {
-            throw new NotImplementedException();
+            var dataModelJson = new DataModelJson
+            {
+                ID = Encoding.ASCII.GetString(data.ID),
+                CPULoad = Encoding.ASCII.GetString(data.CPULoad),
+                MemoryLoad = Encoding.ASCII.GetString(data.MemoryLoad)
+            };
+            var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(dataModelJson);
+            if (File.Exists("JsonLog.txt")){
+                File.AppendAllText("JsonLog.txt", jsonString);
+            }
+            else
+            {
+                File.WriteAllText("JsonLog.txt", jsonString);
+            }
+            
+            return true;
         }
     }
 }
+
