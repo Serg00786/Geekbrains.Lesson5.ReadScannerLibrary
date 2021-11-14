@@ -10,4 +10,3 @@ C:\Users\HomePC\source\repos\ReadScannerLibrary\obj\Debug\ReadScannerLibrary.csp
 C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\NLog.xsd
 C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\Newtonsoft.Json.dll
 C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\Newtonsoft.Json.xml
-C:\Users\HomePC\source\repos\ReadScannerLibrary\obj\Debug\ReadScannerLibrary.csprojAssemblyReference.cache

@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 
 namespace ReadScannerLibrary
 { 
+    public interface IMainLibraryClass
+    {
+        void GetData(dataModelDTO dataModel);
+        void ProcessData(DataModel data);
+    }
 
-    public class MainLibraryClass
+    public class MainLibraryClass : IMainLibraryClass
     {
         public MainLibraryClass()
         {
-
+            
 
         }
         public void GetData (dataModelDTO dataModel)
-        {
-            Contract.Requires(dataModel.ID !=null);
-            Contract.Requires(dataModel.CPULoad != null);
-            Contract.Requires(dataModel.MemoryLoad != null);
-            Contract.EnsuresOnThrow<InvalidDataException>(Contract.OldValue(dataModel.ID) != null);
-
+        { 
             DataModel data = new DataModel();
             data.ID = dataModel.ID;
             data.CPULoad = dataModel.CPULoad;
