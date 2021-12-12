@@ -1,0 +1,12 @@
+C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\ReadScannerLibrary.dll
+C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\ReadScannerLibrary.pdb
+C:\Users\HomePC\source\repos\ReadScannerLibrary\obj\Debug\ReadScannerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\HomePC\source\repos\ReadScannerLibrary\obj\Debug\ReadScannerLibrary.dll
+C:\Users\HomePC\source\repos\ReadScannerLibrary\obj\Debug\ReadScannerLibrary.pdb
+C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\NLog.config
+C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\NLog.dll
+C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\NLog.xml
+C:\Users\HomePC\source\repos\ReadScannerLibrary\obj\Debug\ReadScannerLibrary.csproj.CopyComplete
+C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\NLog.xsd
+C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HomePC\source\repos\ReadScannerLibrary\bin\Debug\Newtonsoft.Json.xml

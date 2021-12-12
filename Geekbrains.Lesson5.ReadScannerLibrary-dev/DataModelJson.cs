@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ReadScannerLibrary
 {
-    interface IStrategy
+    public class DataModelJson
     {
-        bool DoAlgorithm(DataModel data);
+        public string ID { get; set; }
+        public string CPULoad { get; set; }
+        public string MemoryLoad { get; set; } 
     }
 }

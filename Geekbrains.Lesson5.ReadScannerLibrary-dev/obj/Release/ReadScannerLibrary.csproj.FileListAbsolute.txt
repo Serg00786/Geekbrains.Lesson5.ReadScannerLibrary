@@ -1,0 +1,9 @@
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\obj\Release\ReadScannerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\bin\Release\NLog.config
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\bin\Release\ReadScannerLibrary.dll
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\bin\Release\ReadScannerLibrary.pdb
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\bin\Release\Newtonsoft.Json.dll
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\bin\Release\Newtonsoft.Json.xml
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\obj\Release\ReadScannerLibrary.csproj.CopyComplete
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\obj\Release\ReadScannerLibrary.dll
+C:\Users\alekseevsv\source\repos\Geekbrains.Lesson5.ReadScannerLibrary-dev\Geekbrains.Lesson5.ReadScannerLibrary-dev\obj\Release\ReadScannerLibrary.pdb

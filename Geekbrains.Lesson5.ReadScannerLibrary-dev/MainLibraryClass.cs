@@ -1,21 +1,29 @@
 ﻿using ReadScannerLibrary.DTO;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ReadScannerLibrary
-{
-    public class MainLibraryClass
+{ 
+    public interface IMainLibraryClass
+    {
+        void GetData(dataModelDTO dataModel);
+        void ProcessData(DataModel data);
+    }
+
+    public class MainLibraryClass : IMainLibraryClass
     {
         public MainLibraryClass()
         {
-
+            
 
         }
         public void GetData (dataModelDTO dataModel)
-        {
+        { 
             DataModel data = new DataModel();
             data.ID = dataModel.ID;
             data.CPULoad = dataModel.CPULoad;
@@ -23,7 +31,7 @@ namespace ReadScannerLibrary
             this.ProcessData(data);
         }
 
-        private void ProcessData(DataModel data)
+        public void ProcessData(DataModel data)
         {
             var context = new Context();
             context.SetStrategy(new StrategySaveToJson());
@@ -32,5 +40,6 @@ namespace ReadScannerLibrary
             context.SetStrategy(new StrategySaveToXML());
             context.RealizeBusinessLogic(data);
         }
+
     }
 }
